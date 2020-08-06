@@ -1,0 +1,305 @@
+
+
+body {
+  background-color: #fcd132;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.bgYellow{
+ background-color: #fcd132; 
+}
+.borderHr{
+  border:1px solid #dab327; 
+ }
+
+.navigation {
+  
+  width: 95vw;
+  height: 12vh;
+}
+
+.toggle-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 5vw;
+  align-items: flex-end;
+}
+
+.toggle-nav:hover {
+  cursor: pointer;
+}
+
+.toggle-nav div {
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #555555;
+  margin: 3px;
+}
+
+.toggle-nav div:nth-child(2) {
+  width: 75%;
+}
+
+.toggle-nav div:nth-child(3) {
+  width: 50%;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 100;
+  height: 100%;
+
+  background-color: #302e38;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 0;
+  overflow-x: hidden;
+
+  transition: width 0.35s ease-in-out;
+}
+
+.sidebar a {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 1.3em;
+  text-decoration: none;
+  transition: 0.5s;
+  white-space: nowrap;
+}
+
+.sidebar a:hover {
+  color: rgb(255, 255, 255);
+}
+.sidebar a i {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.sidebar > .btn{
+  width: 40%;
+  padding: 1%;
+}
+.logo{
+ max-width: 4vw;
+ max-height: 9vh;
+ padding-top: 5%;
+}
+.navList{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0;
+margin: 0;
+}
+.navList>li{
+list-style-type: none;
+padding: 1%;
+font-size: 1.1rem;
+font-weight: bold;
+}
+.navList>li>a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.navButton>a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.bgImg{
+  background-image: url("pic/BLabs.jpg");
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-blend-mode: hue;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.7;
+  
+}
+
+.projects-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.projects-nav li {
+  background-color: #302e38;
+  padding: 20px 60px 20px 20px;
+  width: 100%;
+  border-right: 1px solid #555555;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.projects-nav li:last-of-type {
+  border-right: none;
+}
+
+.projects-nav li.active {
+  background-color: #ec3b3c;
+  color: #302e38;
+}
+
+.projects-nav li i {
+  position: absolute;
+  right: 20px;
+  font-size: 36px;
+  display: none;
+}
+
+.projects-nav li:hover {
+  cursor: pointer;
+}
+
+.projects-nav li.active i {
+  display: block;
+}
+
+.cards-container h1 {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+.cards-container .card {
+  background-color: white;
+  box-shadow: 0 0 5px gray;
+  border-radius: 15px;
+}
+.card > .card-body{
+  padding: 6%;
+  margin-top: 2%;
+}
+
+.cards-container .card-holder {
+  margin-bottom: 10%;
+}
+div>.cardImg{
+  height: 30vh;
+}
+.cardImg{
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+.cardImg:hover { 
+  margin-top: -10px; 
+}
+.card-title{
+  font-size: 1.7rem;
+}
+.card-text{
+  font-size: 1.2rem;
+}
+.card-body>.date{
+  font-size: 1rem;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.flexRow {
+  display: flex;
+  justify-content: center;
+}
+.rowAlign{
+  display: flex;
+  justify-content: space-around;
+}
+.bgDarkGrey{
+  background-color: #302e38;
+}
+.marginTop{
+ margin-top: 10%;
+}
+.marginBottom{
+ margin-bottom: 20%;
+}
+  
+.textWhite {
+  color: rgb(255, 255, 255);
+}
+.bold {
+  font-weight: bolder;
+}
+.text{font-size: 0.6rem;
+
+}
+.height20vh{
+  height: 20vh;
+}
+.width100 {
+width: 100%;
+}
+.bgBlack {
+  background-color: rgb(0, 0, 0);
+}
+.marginTB3{
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+}
+.paddingTop2{
+  padding-top: 2%;
+}
+.margin1{
+  margin: 3%;
+}
+.padding2{
+padding: 2%;
+}
+input{
+  border-radius: 2%;
+  padding: 3%;
+  border: none;
+  font-style: italic;
+}
+select{
+  border-radius: 2%;
+  padding: 3%;
+  font-style: italic;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+.contactButton{
+  border-radius: 2%;
+  padding: 3%;
+  
+}
+.marginTop1{
+  margin-top: 1%;
+}
+.marginTop5{
+  margin-top: 6%;
+}
+.height10vh{
+  height: 10vh;
+}
+.flexRight{
+  display: flex;
+  justify-content: flex-end;
+}
