@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bikes</title>
+	<meta name="keywords" content="html,css,javaScript">
+	<meta name="description" content="Bikes">
+	<meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<!-- Latest compiled and minified BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Local CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Font-awesome 5 cdn -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row nav flexRow">
+			<div class="col-md-1">
+				<img src="img/logo.png" alt="Logo" id="logoImg">
+			</div>
+			<div class="col-md-9 navLinks">
+				<a href="" class="btn">Home</a>
+				<a href="" class="btn">Bikes</a>
+				<a href="" class="btn">Gear</a>
+				<a href="" class="btn">Parts</a>
+				<a href="" class="btn">Tires</a>
+				<a href="" class="btn">Service-info</a>
+				<a href="" class="btn">Catalogues</a>
+				<a href="" class="btn">Contact</a>
+			</div>
+			<div class="col-md-1 flexRow">
+				<button >
+					<span class="fas fa-search"></span>
+				</button>
+				<button >
+						<span class="fas fa-shopping-bag"></span>
+				</button>
+			</div>
+		</div>
+		<hr>
+		<div class="row headline ">
+			<h1>Bikes</h1>
+		</div>
+		<hr>
+		<div class="row mainContent">
+			<div class="col-md-2 filtersBar flexColumn">
+				<div>
+						<div>Filter By:</div>
+						<div ><button id="showAll">Show all</button>  <span id="all" class="pull-right badge">0</span></div>
+				</div>
+				<hr>
+				<div>
+						<div>Gender</div>
+						<div><button id="maleBtn">Male</button> <span id="male" class="pull-right badge">0</span></div>
+						<div> <button id="femaleBtn">Female</button> <span id="female" class="pull-right badge">0</span></div>
+				</div>
+				<hr>
+				<div>
+					<div>Brand</div>
+					<div id="brand">
+						
+					</div>
+				</div>
+
+			</div>
+			<div class="col-md-9 col-md-offset-1">
+				<div class= "row cardContainer">
+
+				</div>
+				
+			</div>
+
+		</div>
+		<hr>
+		<div class="row quickMenu">
+			<div class="flexColumn col-md-3">
+				<h4>Social share</h4>
+				<div>
+						<button><i class="fab fa-facebook-square"></i></button>
+						<button><i class="fab fa-instagram"></i></button>
+						<button><i class="fab fa-twitter-square"></i></button>
+						<button><i class="fab fa-linkedin"></i></button>
+				</div>
+				
+			</div>
+			<div class="flexColumn col-md-3">
+				<h4>Event info</h4>
+			</div>
+			<div class="flexColumn col-md-3">
+					<h4>Registration</h4>
+			</div>
+			<div class="flexColumn col-md-3">
+					<h4>Scheduale</h4>
+			</div>
+			
+
+		</div>
+		
+
+
+	</div>
+
+
+	
+	<!-- jQuery library -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+
+	<script src="js/main.js"></script>
+</body>
+</html>

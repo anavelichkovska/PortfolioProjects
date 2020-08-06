@@ -1,0 +1,20 @@
+  let filteredBrands = brands.reduce(function (accumulator, currentValue) {
+            if (accumulator.indexOf(currentValue) === -1) {
+              accumulator.push(currentValue);
+            }
+            return accumulator
+          }, [])
+          console.log(filteredBrands)
+
+            /*for(let i=0; i < countedBrands.length; i++){
+            $('#brand').append(
+                `<div>
+                    <button id="${countedBrands[i]}Btn">${countedBrands[i]}</button>
+                    <span id="${countedBrands[i]}">0</span>
+                </div>`
+            )
+            console.log(`${countedBrands[i]}`)
+            
+         
+            
+        }*/

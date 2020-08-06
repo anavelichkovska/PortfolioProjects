@@ -1,0 +1,95 @@
+body {
+	background-color: #e7e7e7;
+}
+.flexRow{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flexColumn{
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+
+#logoImg{
+	width: 10vw;
+	height: 10vh;
+}
+.navLinks{
+	margin: 2% 2% 2% 5%;
+}
+.navLinks a {
+	color: black;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bolder;
+	text-decoration: none;
+	padding: 2%;
+}
+.navLinks a:hover {
+	
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bolder;
+	text-decoration: none;
+	padding: 2%;
+	color: orange;
+	background-color: lightgrey;
+}
+button{
+	color: black;
+	border: none;
+	background-color: #e7e7e7;
+}
+button:hover{
+	color: orange;
+	border: none;
+}
+
+.badge{
+	background-color: #d3d3d3;
+	color: #5c5c5c;
+	border-radius: 50%;
+}
+.badge:hover{
+	background-color: orange;
+	
+}
+
+
+.headline h1{
+	margin-left: 2%;
+	font-size: 10vh;
+}
+.card img {
+ width: 15vw;	
+ height: 20vh;
+}
+.card {
+	border: 1px solid grey;
+	margin: 2%;
+	padding: 0;
+}
+.cardDivOrange{
+	background-color: orange;
+}
+.card:hover{
+	border: 1px solid orange;
+	top: -1px;
+}
+.quickMenu{
+	height: 30vh;
+}
+.divA a{
+	text-decoration: none;
+	color: black;
+}
+.divA a:hover{
+	color: orange;
+	text-decoration: none;
+}
+/*use color:orange for the orange color*/
+/*use background-color: #d3d3d3; color: #5c5c5c; for the badges*/
+/*use color:grey for the social-share icons on hover*/
